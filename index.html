@@ -1,12 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style/style.css">
-    <title>A Semantic HTML Resume with AI</title>
+    <title>Bahaa Ahmed - Software Engineer Resume</title>
+    <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
-    
+    <header>
+        <div class="header-content">
+            <h1>Bahaa Ahmed</h1>
+            <p class="subtitle">Software Engineer</p>
+            <address>
+                <p>Seattle, Washington | <a href="tel:+12066099601">+1 206-609-9601</a> | <a
+                        href="mailto:bahaa.ahmed.eng@gmail.com">bahaa.ahmed.eng@gmail.com</a></p>
+                <p><a href="https://linkedin.com/in/bahaeldin" target="_blank">LinkedIn</a> | <a
+                        href="https://github.com/bahaeldin" target="_blank">GitHub</a></p>
+            </address>
+        </div>
+    </header>
+
+    <main>
+        <section id="objective">
+            <h2>Professional Objective</h2>
+            <p>Dedicated Java Full Stack Engineer with a strong foundation in Java, Spring Boot, and modern front-end
+                technologies like React. Committed to creating seamless, user-focused applications that drive business
+                value through optimized performance and innovative features.</p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+
+            <article>
+                <h3>Freelancer - Web Developer</h3>
+                <time datetime="2021">2021</time> - <time datetime="2022">2022</time>
+                <p>I developed and delivered custom websites and web applications for diverse clients, focusing on
+                    responsive design, performance optimization, and user-friendly interfaces. Proficient in front-end
+                    technologies like HTML, CSS, JavaScript, and frameworks like React.</p>
+            </article>
+
+            <article>
+                <h3>The Sparks Foundation - Web Development Intern</h3>
+                <time datetime="2021">2021</time> - <time datetime="2022">2022</time>
+                <p>I developed and optimized web applications to enhance user experience. Leveraged front-end skills in
+                    HTML, CSS, and JavaScript, alongside Java and MySQL for backend functionality, to create responsive
+                    and efficient web features. This self-guided internship fostered strong problem-solving skills and a
+                    proactive learning approach.</p>
+            </article>
+
+            <article>
+                <h3>SCAS Construction & Finishing - Software Engineer Intern</h3>
+                <time datetime="2021">2021</time> - <time datetime="2022">2022</time>
+                <p>Collaborated in a dynamic team to design and develop user-friendly web applications, focusing on
+                    clean, responsive layouts and intuitive interfaces. Gained hands-on experience in front-end
+                    technologies such as HTML, CSS, JavaScript, and React.</p>
+            </article>
+
+            <article>
+                <h3>ConnectedVip - Software Engineer Intern</h3>
+                <time datetime="2022">2022</time> - <time datetime="2023">2023</time>
+                <p>Contributed to the development of specialized e-commerce solutions tailored to client needs, focusing
+                    on creating scalable and user-friendly platforms. Worked with Java, Spring Boot, and front-end
+                    technologies like HTML, CSS, and JavaScript to build seamless shopping experiences. Participated in
+                    designing and implementing features.</p>
+            </article>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <article>
+                <h3>North Seattle College</h3>
+                <p>BS of Application Development (Ongoing)</p>
+            </article>
+            <article>
+                <h3>Cairo University</h3>
+                <p>BS Computer Science (<time datetime="2021">2021</time>)</p>
+                <p>Major: Software Engineer | Minor: Information System</p>
+            </article>
+            <article>
+                <h3>Udemy</h3>
+                <p>Diploma (<time datetime="2023">2023</time>)</p>
+                <p>Diploma of Education, Java, Spring, JPA, REST API, MySQL, Postman Advanced Level</p>
+            </article>
+        </section>
+
+        <section id="skills">
+            <h2>Skills & Abilities</h2>
+            <div class="skills-grid">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>AJAX</li>
+                    <li>React</li>
+                </ul>
+                <ul>
+                    <li>Core Java</li>
+                    <li>OOP Java</li>
+                    <li>Data Structures</li>
+                    <li>Design Patterns</li>
+                    <li>Spring Boot</li>
+                </ul>
+                <ul>
+                    <li>PostgreSQL</li>
+                    <li>MySQL</li>
+                    <li>Hibernate</li>
+                    <li>Git</li>
+                    <li>AWS-GCP - Azure</li>
+                </ul>
+                <ul>
+                    <li>Management</li>
+                    <li>Leadership</li>
+                    <li>Problem Solving</li>
+                    <li>Communication</li>
+                    <li>SDLC</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Bahaa Ahmed. All rights reserved.</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('section');
+            sections.forEach((section, index) => {
+                section.style.transition = 'transform 0.2s ease, box-shadow 0.2s ease';
+                section.addEventListener('mouseenter', () => {
+                    section.style.transform = 'translateY(-3px)';
+                    section.style.boxShadow = '0 10px 20px rgba(2, 132, 199, 0.12)';
+                });
+                section.addEventListener('mouseleave', () => {
+                    section.style.transform = 'translateY(0)';
+                    section.style.boxShadow = '0 4px 6px -1px rgba(0, 0, 0, 0.05)';
+                });
+            });
+        });
+    </script>
 </body>
+
 </html>
