@@ -11,6 +11,12 @@ A clean, modern, and fully responsive professional resume template built using H
 - **Print Friendly:** Includes dedicated print media styles to ensure clean PDF exports or direct printouts without unnecessary clutter.
 - **Easy Customization:** Simply update the content directly in the HTML file and adjust colors/fonts in the CSS stylesheet.
 
+## How to Run
+
+No installation or dependencies are required. Open `index.html` directly in a web browser, or serve the project locally with any static web server.
+
+Then visit `http://localhost:8000` in your browser.
+
 ## Project Structure
 
 ```text
